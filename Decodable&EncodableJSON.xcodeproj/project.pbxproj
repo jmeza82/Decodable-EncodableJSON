@@ -12,6 +12,9 @@
 		834F03C4230B985A0053AA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834F03C2230B985A0053AA76 /* Main.storyboard */; };
 		834F03C6230B985D0053AA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F03C5230B985D0053AA76 /* Assets.xcassets */; };
 		834F03C9230B985D0053AA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834F03C7230B985D0053AA76 /* LaunchScreen.storyboard */; };
+		834F03D3230BB23D0053AA76 /* EncodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F03D2230BB23D0053AA76 /* EncodableViewController.swift */; };
+		834F03D5230BB85F0053AA76 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F03D4230BB85F0053AA76 /* Decodable.swift */; };
+		834F03D7230BB8820053AA76 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F03D6230BB8820053AA76 /* Encodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		834F03C5230B985D0053AA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834F03C8230B985D0053AA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834F03CA230B985D0053AA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834F03D2230BB23D0053AA76 /* EncodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableViewController.swift; sourceTree = "<group>"; };
+		834F03D4230BB85F0053AA76 /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		834F03D6230BB8820053AA76 /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				834F03BE230B985A0053AA76 /* AppDelegate.swift */,
 				834F03C0230B985A0053AA76 /* ViewController.swift */,
+				834F03D2230BB23D0053AA76 /* EncodableViewController.swift */,
 				834F03C2230B985A0053AA76 /* Main.storyboard */,
 				834F03C5230B985D0053AA76 /* Assets.xcassets */,
 				834F03C7230B985D0053AA76 /* LaunchScreen.storyboard */,
 				834F03CA230B985D0053AA76 /* Info.plist */,
+				834F03D4230BB85F0053AA76 /* Decodable.swift */,
+				834F03D6230BB8820053AA76 /* Encodable.swift */,
 			);
 			path = "Decodable&EncodableJSON";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834F03D3230BB23D0053AA76 /* EncodableViewController.swift in Sources */,
+				834F03D5230BB85F0053AA76 /* Decodable.swift in Sources */,
 				834F03C1230B985A0053AA76 /* ViewController.swift in Sources */,
 				834F03BF230B985A0053AA76 /* AppDelegate.swift in Sources */,
+				834F03D7230BB8820053AA76 /* Encodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
